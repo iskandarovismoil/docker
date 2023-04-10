@@ -14,18 +14,18 @@ This is a template for interacting with Laravel via Docker
 
 In the project directory, you can run:
 
-### `docker-compose up -d`
+    docker-compose up -d
 
 Runs the app in the development mode.
 
-### `docker-compose down`
+    docker-compose down
 
 Сancels the launch the app.
 
 **Note: If your project don`t migrate the database you will first enter the main container like this:**
 
-### `docker exec -it { CONTAINER_NAME } bash`
+    docker exec -it { CONTAINER_NAME } bash
 
 And
 
-  ### `php artisan migrate`
+    php artisan migrate
